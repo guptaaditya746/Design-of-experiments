@@ -1,49 +1,84 @@
 # Experimentation and Signal Processing Repository
 
-This repository contains the code and reports related to various experiments in signal processing, system identification, and model calibration. The experiments span across topics like harmonic oscillators, regularization techniques, signal analysis, and damage detection.
+To improve the formatting of your provided content about the repository containing code and reports related to various experiments in signal processing, system identification, and model calibration, you can follow a structured approach. Here’s a revised version with better formatting, including headers, lists, and clearer sections:
+
+---
+
+# Repository Overview
+
+This repository contains the code and reports related to various experiments in signal processing, system identification, and model calibration. The experiments span across topics such as:
+
+- Harmonic oscillators
+- Regularization techniques
+- Signal analysis
+- Damage detection
 
 ## Discussion and Key Insights
 
-<p align="center">
-  <img src="https://github.com/kirtan517/Helmet-Detection/blob/main/Images/labels.jpg" alt="labels" width="800">
-</p>
-This plot shows the cross-correlation between the signals x1_noise and x2_noise for different lag values. It indicates how well the two signals are correlated at different time lags.
+### Cross-Correlation Analysis
 
 <p align="center">
-  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Reference%20Image.tif" alt="reference image" width="800">
+  <img src="https://github.com/kirtan517/Helmet-Detection/blob/main/Images/labels.jpg" alt="Cross-Correlation Plot" width="800">
 </p>
 
-True image, now three methods are employed TSVD, SVD, iterative method for different hyperparameters, so to see which methods at what value is able to  predict the result or near to the true image.
+This plot shows the cross-correlation between the signals `x1_noise` and `x2_noise` for different lag values. It indicates how well the two signals are correlated at different time lags.
+
+### Image Reconstruction Methods
 
 <p align="center">
-  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Reconstruction%20using%20no%20regularization.tif" alt="labels" width="800">
+  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Reference%20Image.tif" alt="Reference Image" width="800">
 </p>
 
+The true image is shown above. Three methods are employed: **TSVD**, **SVD**, and **Iterative Method** for different hyperparameters. This analysis helps to determine which methods and values can predict the result or approximate the true image effectively.
+
+#### Reconstruction Without Regularization
 
 <p align="center">
-  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Reconstruction%20based%20on%20TSVD%20for%20different%20values%20of%20K%20from%2050%20to%201700.tif" alt="labels" width="800">
+  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Reconstruction%20using%20no%20regularization.tif" alt="Reconstruction Without Regularization" width="800">
 </p>
 
+#### Reconstruction Based on TSVD
 
 <p align="center">
-  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Reconstruction%20based%20on%20Tikhonov%20for%20different%20alphas%20from%201%20to%207%2C%20with%20the%20increment%20of%201.tif" alt="labels" width="800">
+  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Reconstruction%20based%20on%20TSVD%20for%20different%20values%20of%20K%20from%2050%20to%201700.tif" alt="TSVD Reconstruction" width="800">
 </p>
 
+#### Reconstruction Based on Tikhonov Regularization
 
 <p align="center">
-  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Reconstruction%20based%20on%20Iterative%20for%20different%20number%20of%20iterations%20from%2010%20to%2050%2C%20with%20the%20increment%20of%2010.tif" alt="labels" width="800">
+  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Reconstruction%20based%20on%20Tikhonov%20for%20different%20alphas%20from%201%20to%207%2C%20with%20the%20increment%20of%201.tif" alt="Tikhonov Reconstruction" width="800">
 </p>
 
-Below plot showing l-cruve for tikohonov 
+#### Iterative Reconstruction
+
 <p align="center">
-  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/L%20curve%20Tikhonov.tif" alt="labels" width="800">
+  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Reconstruction%20based%20on%20Iterative%20for%20different%20number%20of%20iterations%20from%2010%20to%2050%2C%20with%20the%20increment%20of%2010.tif" alt="Iterative Reconstruction" width="800">
 </p>
 
-An another example which can be found in the last part of the documentation tomography using iterative approach
+### L-Curve for Tikhonov Regularization
+
+Below is the L-curve plot for Tikhonov regularization:
+
 <p align="center">
-  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Effect%20of%20Iterations%20on%20Iterative%20Reconstruction.tif" alt="labels" width="800">
+  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/L%20curve%20Tikhonov.tif" alt="L-Curve Tikhonov" width="800">
 </p>
 
+### Tomography Using Iterative Approach
+
+An example of tomography using the iterative approach can be found in the last part of the documentation:
+
+<p align="center">
+  <img src="https://github.com/guptaaditya746/Design-of-experiments/blob/main/img/Effect%20of%20Iterations%20on%20Iterative%20Reconstruction.tif" alt="Effect of Iterations on Iterative Reconstruction" width="800">
+</p>
+
+---
+
+### Summary
+
+This structured format enhances readability and provides a clear presentation of the key insights and findings from your experiments. You can further customize the content to include specific details or findings as needed. If you have any additional requests or need further modifications, feel free to ask!
+
+Citations:
+[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/18202123/e17e524f-8bad-4db9-b8a7-02318126c8fb/paste.txt
 ## Table of Contents
 - [Folders Structure](#folders-structure)
 - [Experiments Overview](#experiments-overview)
