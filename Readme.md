@@ -32,19 +32,23 @@ Optimization was executed using `fminsearch` and `fmincon`, allowing constraints
 
 To handle ill-posed problems, regularization techniques such as Tikhonov regularization and truncated singular value decomposition (TSVD) were used. The regularized least squares problem is formulated as:
 
-$$
+
+
+\[
 \min_x \left\{ \|Ax - b\|^2 + \alpha \|Lx\|^2 \right\}
-$$
+\]
+
+This equation represents the regularized least squares problem, where:
+- \(A\) is the system matrix,
+- \(b\) is the observed data,
+- \(x\) is the parameter vector to be optimized,
+- \(L\) is the regularization matrix,
+- \(\alpha\) is the regularization parameter.
 
 
 
 
-Where:
-- $$A$$ is the system matrix
-- $$b$$ is the observed data
-- $$x$$ is the parameter vector
-- $$L$$ is the regularization matrix
-- $$\alpha$$ is the regularization parameter
+
 
 The L-curve criterion was used to select $$\alpha$$, balancing the trade-off between data fitting and solution smoothness.
 
