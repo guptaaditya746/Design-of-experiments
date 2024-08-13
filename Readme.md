@@ -32,9 +32,10 @@ Optimization was executed using `fminsearch` and `fmincon`, allowing constraints
 
 To handle ill-posed problems, regularization techniques such as Tikhonov regularization and truncated singular value decomposition (TSVD) were used. The regularized least squares problem is formulated as:
 
-$$ 
-\min_x \left\{ \|Ax - b\|^2 + \alpha \|Lx\|^2 \right\} 
 $$
+\min_x \left\{ \|Ax - b\|^2 + \alpha \|Lx\|^2 \right\}
+$$
+
 
 
 Where:
