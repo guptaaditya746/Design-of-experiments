@@ -38,6 +38,7 @@ $$
 
 
 
+
 Where:
 - $$A$$ is the system matrix
 - $$b$$ is the observed data
